@@ -1,14 +1,14 @@
 @font-face{
     font-family: 'GreatVibes-Regular';
-    src: url('./GreatVibes-Regular.ttf') format('truetype');
+    src: url('/GreatVibes-Regular.ttf') format('truetype');
 }
 @font-face{
     font-family: 'Satisfy-Regular';
-    src: url('./Satisfy-Regular.ttf') format('truetype');
+    src: url('/Satisfy-Regular.ttf') format('truetype');
 }
 
 .back {
-    background-image: url('./joseve.jpg');
+    background-image: url('/joseve.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
