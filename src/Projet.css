@@ -1,6 +1,6 @@
 
 .backProjet{
-    background-image: url('./backGroundOne.jpeg');
+    background-image: url('/backGroundOne.jpeg');
     background-size: cover;
     height: 100vh;
     display: flex;
