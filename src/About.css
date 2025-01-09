@@ -1,0 +1,54 @@
+p{
+    color: black;
+    font-family: 'Satisfy-Regular';
+    font-weight: lighters;
+    font-size: medium;
+}
+.aboutBack{
+    background-color: #4682B4;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    color: white;
+
+  }
+  img {
+    max-width: 30%; 
+    height: auto; 
+    margin: 10px 0; 
+    margin-left: 100px;
+  }
+  h2{
+    font-family: 'Satisfy-Regular'; 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
+  }
+  a{
+    font-family: 'Satisfy-Regular'; 
+    font-weight: lighter;
+  }
+  .container {
+    display: flex;
+    flex-wrap: nowrap; 
+    width: 100%; 
+    overflow-x: hidden; 
+  }
+  
+  .blocGauche {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0;
+    left: 0;
+    width: 60%; 
+    height: 70vh;
+    
+  }
+   
+  .blocDroite {
+    top: 0;
+    right: 0;
+    width: 40%; 
+    height: 70vh;
+    background-color: aliceblue;
+  }

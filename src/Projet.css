@@ -1,0 +1,40 @@
+
+.backProjet{
+    background-image: url('./backGroundOne.jpeg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    color: white;
+
+    
+  }
+  h2{
+    font-family: 'Satisfy-Regular'; 
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0%;
+  }
+.card {
+    width: 18rem; 
+    height: 70vh;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .card-img-top {
+    height: 200px; 
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-container {
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+  }
+  

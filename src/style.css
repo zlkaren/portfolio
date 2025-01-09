@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'GreatVibes-Regular';
+    src: url('./GreatVibes-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Satisfy-Regular';
+    src: url('./Satisfy-Regular.ttf') format('truetype');
+}
+
+.back {
+    background-image: url('./joseve.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    position: relative; 
+  }
+  .back::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .navbar-brand{
+    color: white;
+    font-family: 'GreatVibes-Regular';
+    font-size: 50px;
+  }
+  .nav-link{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+    color: white;
+    font-family: 'Satisfy-Regular';
+    font-size: 100px;
+    margin-bottom: 20px;
+    z-index: 2;
+    
+  }
+ 
+  
+ 
+  .animated-text {
+  position: relative;
+  z-index: 2;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  animation: fadeIn 3s ease-in-out infinite;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px); 
+  }
+}
+
+
+
+ 
